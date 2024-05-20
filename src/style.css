@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Reem+Kufi+Fun:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaini+Purva&family=Poetsen+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(29, 29, 31);
+}
+h2 {
+  font-family: "Jaini Purva", sans-serif;
+  /* font-size: 40px; */
+  font-weight: 400;
+  text-align: center;
+  color: rgb(248, 238, 248);
+}
+.calculator-main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator-div {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.take-input {
+  width: 84%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number-taken {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  background-color: rgb(45, 47, 56);
+  border: none;
+  color: white;
+}
+.number-taken:focus {
+  outline: none;
+}
+.class-button {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* .class-button:focus{
+    outline: none;
+} */
+.row-1 button {
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.operator-cut {
+  width: 30px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cut {
+  scale: 0.7;
+}
+.calculation {
+  font-family: "Jaini Purva", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 2px 1px;
+  border-radius: 50%;
+  padding: 3px 12px;
+  border: none;
+  background-color: rgb(45, 47, 56);
+  color: white;
+}
+.operator-equal {
+  background-color: rgb(82, 117, 231);
+}
+.operator {
+  background-color: grey;
+}
+.operator-ac {
+  background-color: rgb(179, 65, 144);
+}
+.cal-div {
+  height: 90vh;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+/* #display {
+    margin: 0 10px;
+    height: 150px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+  }
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+} */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(19, 19, 22);
+  }
+}
